@@ -6,10 +6,8 @@
 
 # Inclusions / Exclusions done manually in this file or through plugin commands
 # MineCICD GITIGNORE PART BEGIN MARKER
-!/test_1/**
-/test_1/test_2/*
-!/test_1/test_2/*/
-!/test_1/test_2/test_3/**
+/test_1/*
+!/test_1/*/
 # MineCICD GITIGNORE PART END MARKER
 
 # MineCICD is priority EXCLUDED. It is not recommended to track it, as this could lead to security risks or other issues
